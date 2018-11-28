@@ -1,0 +1,5 @@
+version: "2"
+services:
+    thor:
+        build: .
+        command: "thor --amount 100 --messages 100 -C 100 ws://192.168.0.179:8888/ws"
